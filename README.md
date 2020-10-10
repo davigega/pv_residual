@@ -24,7 +24,8 @@ You can find a compiled version of ```PV_Residual``` for Window10 and MacOS (tes
 
 ## Help File (schelp not ready yet)
 In the mean time:
-Like every PV_Ugen the `PV_Residual` needs an FFT chain to work. The second argument can be any float number bigger than 1. Usually values between 1.1 and 3 work better.
+Like every PV_Ugen `PV_Residual` needs an FFT chain to work. The second argument can be any float number bigger than 1
+(since 1 will remove all the spectral information). Usually values close to 1 work better. Values lower than 1 are automatically clipped to 1.
 
 ### Example
 ```
