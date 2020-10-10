@@ -21,7 +21,7 @@ Platform.userExtensionDir
 ```
 ## Help File (schelp not ready yet)
 In the mean time:
-Like every PV_Ugen the `PV_Residual` needs an FFT chain to work. The second argument can be any float number bigger than 1. Usually values between 1.1 and 3 works better.
+Like every PV_Ugen the `PV_Residual` needs an FFT chain to work. The second argument can be any float number bigger than 1. Usually values between 1.1 and 3 work better.
 
 ### Example
 ```
