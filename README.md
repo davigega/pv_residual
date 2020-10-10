@@ -19,6 +19,9 @@ If you don't know the Extension folder location, in SCIDE type and evaluate:
 ```
 Platform.userExtensionDir
 ```
+## Binaries
+You can find a compiled version of ```PV_Residual``` for Window10 and MacOS (tested on MacOS 10.13) in the release page
+
 ## Help File (schelp not ready yet)
 In the mean time:
 Like every PV_Ugen the `PV_Residual` needs an FFT chain to work. The second argument can be any float number bigger than 1. Usually values between 1.1 and 3 work better.
